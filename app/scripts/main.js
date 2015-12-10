@@ -487,13 +487,19 @@
 
     }
 
-
+    $('body').flowtype({
+     minimum   : 320,
+     maximum   : 1200,
+     minFont   : 12,
+     maxFont   : 20,
+     fontRatio : 30
+    });
 
 })(jQuery); // End of use strict
 
 // Rotator Init
 (function($){
-    
+
     $(document).ready(function(){
         $(".text-rotate").textrotator({
           animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
@@ -508,7 +514,7 @@
    --------------------------------------------- */
 function initPageSliders(){
     (function($){
-        
+
 
         // Fullwidth slider
         $(".fullwidth-slider").owlCarousel({
@@ -628,7 +634,7 @@ var work_grid = $("#work-grid");
 
 function initWorkFilter(){
     (function($){
-     
+
      var isotope_mode;
      if (work_grid.hasClass("masonry")){
          isotope_mode = "masonry";
