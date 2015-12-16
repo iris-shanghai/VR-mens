@@ -27,7 +27,7 @@
 
     $(document).ready(function(){
 
-        $(window).trigger("resize");
+       $(window).trigger("resize");
 
         init_classic_menu();
         init_lightbox();
