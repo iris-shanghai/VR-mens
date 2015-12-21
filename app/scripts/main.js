@@ -310,7 +310,9 @@
      --------------------------------------------- */
 
     function init_lightbox(){
-
+      $('.ajax-popup').magnificPopup({
+              type: 'ajax'
+            });
         // Works Item Lightbox
         $(".work-lightbox-link").magnificPopup({
             gallery: {

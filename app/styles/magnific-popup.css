@@ -366,7 +366,7 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
-  
+
   /* overlay at start */
 .mfp-fade.mfp-bg {
   opacity: 0;
@@ -400,3 +400,8 @@ img.mfp-img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+.white-popup-block {
+  background-color: #fff;
+
+}
+.white-popup-block{background:#FFF;padding:20px 30px;text-align:left;max-width:650px;margin:40px auto;position:relative}
